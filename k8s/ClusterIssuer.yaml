@@ -5,8 +5,8 @@ metadata:
 spec:
   acme:
     server: [https://acme-v02.api.letsencrypt.org/directory](https://acme-v02.api.letsencrypt.org/directory)
-    # CHANGED: Updated to your email address
-    email: praduman.cnd@gmail.com
+    # CHANGED: Updated to your exact email address
+    email: tmdeshapriya@gmail.com
     privateKeySecretRef:
       name: letsencrypt-prod
     solvers:
