@@ -13,11 +13,11 @@ spec:
   tls:
   - hosts:
     # CHANGE THIS ONLY IF YOU BOUGHT A REAL DOMAIN
-    - [www.capstonebankapp.com](https://www.capstonebankapp.com)
+    - https://www.capstonebankapp.com
     secretName: bankapp-tls-secret
   rules:
   # CHANGE THIS ONLY IF YOU BOUGHT A REAL DOMAIN
-  - host: [www.capstonebankapp.com](https://www.capstonebankapp.com)
+  - host: https://www.capstonebankapp.com
     http:
       paths:
       - path: /
