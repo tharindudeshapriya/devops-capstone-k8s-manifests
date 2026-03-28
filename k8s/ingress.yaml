@@ -13,11 +13,11 @@ spec:
   tls:
   - hosts:
     # CHANGE THIS ONLY IF YOU BOUGHT A REAL DOMAIN
-    - https://www.tharindu-bank.duckdns.org
+    - tharindu-bank.duckdns.org
     secretName: bankapp-tls-secret
   rules:
   # CHANGE THIS ONLY IF YOU BOUGHT A REAL DOMAIN
-  - host: https://www.tharindu-bank.duckdns.org
+  - host: tharindu-bank.duckdns.org
     http:
       paths:
       - path: /
