@@ -151,7 +151,7 @@ spec:
       containers:
         - name: bankapp
           # CHANGED: Updated to your DockerHub username so Jenkins can update it!
-          image: tmdeshapriya/bankapp:v18
+          image: tmdeshapriya/bankapp:v19
           ports:
             - containerPort: 8080
           env:
